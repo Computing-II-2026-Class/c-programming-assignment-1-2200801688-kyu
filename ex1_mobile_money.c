@@ -8,7 +8,7 @@ int main(void)
     float amount,fee_percebt,fee_amount,total_deducted;
     printf("Enter amount to send:");
     scanf("%f",&amount);
-    printf(Enter transaction fee(%):");
+    printf("Enter transaction fee(%):");
     scanf("%f",&fee_percent);
     
     fee_amount = amount*(fee_percent)/100;
